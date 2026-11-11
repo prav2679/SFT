@@ -1,0 +1,38 @@
+{
+    "validation_type": "sequential_synthetic_telemetry",
+    "telemetry_interval_s": 600,
+    "total_telemetry_updates": 7,
+    "successful_predictions": 7,
+    "baseline_landing": {
+        "latitude": 13.161513478645295,
+        "longitude": 80.06796215318869,
+        "datetime_utc": null
+    },
+    "first_update_landing_error_m": 143.16320881347815,
+    "final_update_landing_error_m": 113.53508400824975,
+    "maximum_landing_error_m": 170.59906582980494,
+    "minimum_landing_error_m": 53.98929894626801,
+    "final_landing_prediction_change_m": 137.26484607913994,
+    "final_prediction": {
+        "update_number": 7,
+        "telemetry_datetime_utc": "2026-10-31T01:10:00+00:00",
+        "telemetry_elapsed_s": 4200.0,
+        "telemetry_latitude": 13.131219296654907,
+        "telemetry_longitude": 80.21206394252681,
+        "telemetry_altitude_m": 28260.000000000193,
+        "telemetry_horizontal_deviation_m": 155.21123879789707,
+        "telemetry_altitude_error_m": 75.0,
+        "predicted_burst_datetime_utc": "2026-10-31T01:19:19.043348+00:00",
+        "predicted_burst_time_s": 4759.043348280976,
+        "predicted_burst_remaining_s": 559.0433482809758,
+        "predicted_burst_latitude": 13.137502849384083,
+        "predicted_burst_longitude": 80.15149092327341,
+        "predicted_burst_altitude_m": 32000.0,
+        "predicted_landing_datetime_utc": "2026-10-31T02:14:15.627468+00:00",
+        "predicted_landing_latitude": 13.162524139324912,
+        "predicted_landing_longitude": 80.06781297950154,
+        "landing_change_from_previous_m": 137.26484607913994,
+        "landing_error_vs_baseline_m": 113.53508400824975,
+        "forecast_status": "complete_to_landing"
+    }
+}

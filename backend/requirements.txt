@@ -1,0 +1,7 @@
+# Mission-control API (Python >= 3.10). The scientific models additionally need the
+# preserved Tawhiri engine built in the interpreter set by SFT_MODEL_PYTHON.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+httpx>=0.27
+pydantic>=2.6
+matplotlib>=3.8   # used by the original LiveTrajectoryManager.plot()
