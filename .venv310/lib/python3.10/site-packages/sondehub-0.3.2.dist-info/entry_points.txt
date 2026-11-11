@@ -1,0 +1,3 @@
+[console_scripts]
+sondehub=sondehub:__main__.main
+
