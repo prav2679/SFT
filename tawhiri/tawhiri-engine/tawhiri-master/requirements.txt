@@ -1,0 +1,21 @@
+# Required for setup.py
+Cython
+
+# gnuicorn tools
+eventlet
+gevent
+
+# Documentation
+sphinx
+docutils
+
+# Date parsing
+python-dateutil
+
+# Flask - pinned
+flask==1.1.4
+Jinja2==2.11.3
+markupsafe==2.0.1
+
+# Ourselves
+-e .

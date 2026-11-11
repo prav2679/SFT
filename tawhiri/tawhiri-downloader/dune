@@ -1,0 +1,13 @@
+(executable
+  (name main)
+  (libraries
+    threads
+    core
+    async
+    curl
+    ctypes.foreign
+    async_kernel.limiter_async
+  )
+  (link_flags (-cclib -leccodes))
+  (preprocess (pps ppx_jane))
+)
